@@ -8,7 +8,9 @@
   - ウィザードに必要なdllと使い方の説明が出てくるのでそれに従う。
     - 指定されたファイルを指定パスに移動(要ファイルリネーム)
     - php.iniの編集
-      - zend_extension = xdebug
+      - 標準で、;zend_extension=opcache という設定があるので  
+        zend_extension = xdebug  
+        と変更
   - php.iniの最後に下記を追加(要パス調整)
 ```
 [XDebug]
