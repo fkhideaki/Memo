@@ -8,3 +8,8 @@
   - 規定に  
     "C:\Users\fkhid\AppData\Local\Programs\Microsoft VS Code\Code.exe" "%V"  
     と設定
+
+
+## スリープ
+- 最後にスリープが解除された原因を調べる
+  - powercfg /lastwake
