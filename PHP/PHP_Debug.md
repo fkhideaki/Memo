@@ -1,4 +1,4 @@
-# PHP
+# PHP Debug
 
 ## PHPをVSCode+XAMPPでデバッグする設定 (XAMPP設定)
 - phpにXdebugをインストールする
