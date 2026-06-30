@@ -14,7 +14,7 @@
   - php.iniの最後に下記を追加(要パス調整)
 ```
 [XDebug]
-zend_extension = "E:\xampp\php\ext\php_xdebug.dll"
+zend_extension = xdebug
 xdebug.mode = debug
 xdebug.start_with_request = yes
 xdebug.client_host = 127.0.0.1
@@ -38,17 +38,6 @@ xdebug.log_level = 7
             "name": "Listen for Xdebug",
             "type": "php",
             "request": "launch",
-            "port": 9003,
-            "pathMappings": {
-                "/var/www/html": "${workspaceFolder}"
-            }
-        },
-        {
-            "name": "Launch currently open script",
-            "type": "php",
-            "request": "launch",
-            "program": "${file}",
-            "cwd": "${fileDirname}",
             "port": 9003
         }
     ]
