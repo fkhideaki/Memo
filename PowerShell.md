@@ -1,5 +1,5 @@
 ## Path
 - Pathを確認
-  - $Env:Path
+  - `$Env:Path`
 - Pathを追加
-  - $Env:Path+=";C:\aaa"
+  - `$Env:Path+=";C:\aaa"`
